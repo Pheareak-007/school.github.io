@@ -1,0 +1,353 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+}
+#menubar{
+	background-color: whitesmoke;
+	width: 100%;
+	height: 90px;
+	box-shadow: 0 0 2px 1px black;
+	border-radius: 0 0 50px 50px;
+	position: fixed;
+	top: 0px;
+}
+.manu{
+	position: relative;
+}
+#list{
+	position: absolute;
+	right: 2%;
+	bottom: 12%;
+}
+#list ul{
+	list-style: none;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-family: alice;
+}
+#list ul li{
+	margin: 5px 10px;
+	position: relative;
+	display: inline-block;
+}
+#list ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 15px;
+	color: black;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+#list ul li:hover a{
+	background-color: #0F00DC;
+	color: white;
+}
+#list ul li:hover #submenu{
+  	display: block;
+}
+#logo{
+	width: 350px;
+	height: 80px;
+	position: absolute;
+	left: 5%;
+	bottom: 4%;
+}
+#menubar #logo h1{
+	float: left;
+	color: rgba(0,49,203,1.00);
+	position: absolute;
+	top: 2%;
+	left: 27%;
+}
+#submenu{
+	width: 150px;
+	display: none;
+	position: absolute;
+	margin-top: 6px;
+	background-color: #0F00DC;
+}
+#submenu ul{
+	width: 130px;
+	text-align: left;
+}
+#submenu ul li{
+	padding: 4px 26px 5px 0px;
+	margin-left: -30%;
+}
+#list ul li:hover #submenu{
+	display: block;
+}
+#submenu ul li:hover a{
+	color: rgba(84,249,255,1.00);
+}
+#welcome{
+	width: 100%px;
+	height: 570px;
+	background-image:url("file:///C:/wamp64/www/WEB/Images%20for%20project/back2.png");
+  	background-repeat: no-repeat;
+  	background-size:cover;
+	padding: 150px 50px 50px 80px;
+}
+#regis{
+	width: 500px;
+	height: 200px;
+	background-color:rgba(7,0,74,0.5);
+	padding: 10px 10px 10px 30px;
+	border-radius: 10px;
+}
+#regis h1{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+}
+#regis p{
+	color: white;
+	font-family: 'kh content';
+	margin-bottom: 4%;
+}
+#regis a{
+	color: white;
+	background-color: blue;
+	padding: 10px 30px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+#regis a:hover{
+	box-shadow: 0 0 2px 2px white;
+	background-color: transparent;
+}
+#descrip{
+	width: 100%px;
+	height: 400px;
+	background-color: white;
+}
+#discription{
+	width: 50%;
+	height: 400px;
+	background-image: url("file:///C:/wamp64/www/WEB/Images%20for%20project/logo.png");
+	background-position: 5% 20%;
+	background-repeat: no-repeat;
+	background-size: 350px auto;
+	float: left;
+}
+#discription h1{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-left: 50%;
+	text-align: center;
+	color: blue;
+	text-shadow: 0 0 2px grey;
+}
+#discription p{
+	font-family: 'kh content'; 
+	margin-left: 51%;
+	text-shadow: 0 0 2px grey;
+	margin-bottom: 5%;
+}
+#discription a{
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 5px;
+	margin-left: 67%;	
+}
+#discription a:hover{
+	box-shadow: 0 0 2px 2px blue;
+	background-color: transparent;
+	color: blue;
+}
+#photo{
+	width: 50%;
+	height: 400px;
+	background-color: white;
+	float: left;
+}
+#background{
+	width: 100%;
+	height: 300px;
+	background-image: url("file:///C:/wamp64/www/WEB/Images%20for%20project/giphy.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#background h1{
+	text-shadow: 1px 1px 5px black;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+#promotion{
+	width: 100%;
+	height: auto;
+	background-color: whitesmoke;
+	
+}
+#special-pro{
+	width: 100%;
+	height: 100px;
+	background-color: whitesmoke;
+	margin-top: 0px;
+	padding-top: 1px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+#special-pro{
+	text-align: center;
+}
+#special-pro h2{
+	margin-bottom: 5px;
+}
+#specaial-pro p{
+	margin-top: 5px;
+}
+.big-course{
+	width: 1000px;
+	height: 340px;
+	background-color: whitesmoke;
+	margin: auto;
+	position: relative;
+}
+.course-left{
+	width: 23%;
+	height: 400px;
+	background-color: whitesmoke;
+	position: absolute;
+}
+.course-left .left-menu{
+	width: 87%;
+	padding: 10px 15px;
+	cursor: pointer;
+	margin-bottom: 1px;
+}
+.course-left .left-menu a{
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.course-left .left-menu:hover{
+	background-color: blue;
+	border-radius: 5px;
+}
+.course-left .left-menu:hover a{
+	color: white;
+}
+.course-left .active{
+	background-color: blue;
+	border-radius: 5px;
+}
+.course-left .active a{
+	color: white;
+}
+.course-right{
+	background-color: whitesmoke;
+	width: 76%;
+	height: auto;
+	position: absolute;
+	right: 0;
+}
+.course-right{
+	width: 75%;
+	height: 350px;
+	background-color: whitesmoke;
+	position: absolute;
+}
+.course-right .pic-promot{
+	width: 31.3%;
+	height: 130px;
+	float: left;
+	margin: 0 1% 30px;
+	box-shadow: 0 0 8px 1px grey;
+	position: relative;
+	overflow: hidden;
+}
+.course-right .pic-promot:hover .detail{
+	top: 0; 
+}
+.course-right .pic-promot img{
+	width: 100%;
+	height: 100%;
+}
+.course-right .pic-promot .detail{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,6,130,0.7);
+	z-index: 2;
+	top: 100%;
+	position: absolute;
+	color: white;
+	transition: top 1s;
+}
+.detail h5{
+	font-size: 16px;
+	font-weight: bolder;
+	margin: 5px 15px;
+}
+.detail p{
+	font-size: 13px;
+	line-height: 20px;
+	margin: 10px 10px 0;
+}
+.detail h4{
+	font-size: 18px;
+	padding-top: 10px;
+	margin: 5px 15px;
+	border-top: 1px dashed white;
+}
+#special-pro1{
+	width: 100%;
+	height: 100px;
+	background-color: whitesmoke;
+	margin-top: 0px;
+	padding-top: 8px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
+.row {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: inline-block
+}
+.row.blockDisplay {
+	display: block;
+}
+.column_half {
+	width: 50%;
+	float: left;
+	margin-top: 0px;
+}
+.columns {
+	width: 25%;
+	float: left;
+	font-family: "Source Sans Pro";
+	color: #A5A5A5;
+	line-height: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.row .columns p {
+	padding-left: 10%;
+	padding-right: 10%;
+	color: black;
+}
+.row .columns h4{
+	text-align: center;
+	color:steelblue;
+}
+
+
+
+
+
+
